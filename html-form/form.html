@@ -13,12 +13,12 @@
     <div>
     <h4>registration form</h4>
     <form action="action.php">
-        <input type="text" placeholder="username">
+        <input type="text" placeholder="username" class="name">
         <br>
         <br>
-        <input type="email" placeholder="email">
+        <input type="email" placeholder="email" class="email">
         <br><br>
-        <input type="password" placeholder="password">
+        <input type="password" placeholder="password" class="password">
         <br>
         <h5>select your class</h5>
         <label for="101">
@@ -52,7 +52,7 @@
         <br>
         <br>
         select your city
-        <select name="city" id="106">
+        <select name="city" id="106" class="common">
             <option value="dhaka">dhaka</option>
             <option value="chottogram">chottogram</option>
             <option value="borishal">borishal</option>
@@ -61,9 +61,10 @@
         </select>
         <br>
         <br>
-        <textarea name="feedback" id="" placeholder="give your feedback here"></textarea>
+        <textarea name="feedback" id="" placeholder="give your feedback here" class="common"></textarea>
         <br>
-        <input type="submit">
+        <br>
+        <input type="submit" class="button">
     </form>
 </div>
 </body>
